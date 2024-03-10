@@ -1,0 +1,20 @@
+:root {
+	--border-radius: 14px;
+	--border-radius-small: 11px;
+	--border-radius-large: 43px;
+
+	--font-family-base: 'Roboto', sans-serif;
+
+	--container-width: 1240px;
+	--container-padding-x: 20px;
+
+	--section-padding-y: 70px;
+
+	@include desktop {
+		--section-padding-y: 50px;
+	}
+
+	@include mobile {
+		--section-padding-y: 30px;
+	}
+}
