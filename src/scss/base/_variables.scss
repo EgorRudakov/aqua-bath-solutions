@@ -1,14 +1,23 @@
 :root {
+	--color-light: #ffffff;
+	--color-dark: #151716;
+	--color-orange: #ff7028;
+	--color-hover: #e35d1a;
+
 	--border-radius: 14px;
 	--border-radius-small: 11px;
 	--border-radius-large: 43px;
 
-	--font-family-base: 'Roboto', sans-serif;
+	--font-family-base: 'PT Sans', sans-serif;
 
 	--container-width: 1240px;
-	--container-padding-x: 20px;
+	--container-padding-x: 16px;
 
-	--section-padding-y: 70px;
+	--section-padding-y: 40px;
+
+	--input-height: 44px;
+
+	--transition-duration: 0.2s;
 
 	@include desktop {
 		--section-padding-y: 50px;
